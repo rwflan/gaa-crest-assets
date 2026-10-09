@@ -3,11 +3,11 @@
     "repository": "https://github.com/rwflan/roscommon-gaa-results-service",
     "repositoryVisibility": "private",
     "path": "apps/web/public/crests",
-    "retrievedAt": "2026-09-18T11:33:31.834Z",
-    "digest": "2a8c9e9b811ac549c055ce70266affb0c855b19ff3f6d8f3018e1d3f851df488"
+    "retrievedAt": "2026-10-09T22:53:29.798Z",
+    "digest": "c0aa35604439f798092e91bc818bc596c5acf50e87d015dd39199a5f7ccc1153"
   },
   "counts": {
-    "clubs": 92,
+    "clubs": 99,
     "counties": 36,
     "fallback": 1
   },
@@ -484,7 +484,8 @@
       "aliases": [
         "Boyle",
         "Mainistir na Búille",
-        "Mainistir na Buille"
+        "Mainistir na Buille",
+        "BOYLE"
       ],
       "sourceUrl": "https://www.gaaroscommon.ie/wp-content/uploads/2021/09/boyle-gaa-club.png",
       "sourceLabel": "Roscommon GAA club directory",
@@ -504,6 +505,34 @@
       "postWidth": 112,
       "postHeight": 112,
       "postSha256": "0548f829b481354667893933c61318f7c85d9215ec40e51149cbbe4b0bc875af"
+    },
+    {
+      "id": "club:boyle-lgfa",
+      "kind": "club",
+      "name": "Boyle LGFA",
+      "aliases": [
+        "Boyle LGFA",
+        "BOYLE",
+        "Boyle"
+      ],
+      "sourceUrl": "https://roscommonlgfa.ie/wp-content/uploads/2026/03/Boyle-150.png",
+      "sourceLabel": "Roscommon LGFA club directory",
+      "sourceFormat": "png",
+      "sourceWidth": 150,
+      "sourceHeight": 150,
+      "sourceBytes": 9677,
+      "licence": "Club crest, used to identify the club (see source page)",
+      "retrievedAt": "2026-10-09T22:53:29.798Z",
+      "file": "/crests/clubs/boyle-lgfa.png",
+      "bytes": 25770,
+      "width": 134,
+      "height": 158,
+      "sha256": "86217aeb19dff00b86f57989bd3ebc721316a6337cb1f3948cf7b5ce6d54d953",
+      "postFile": "/crests/clubs/boyle-lgfa-post.png",
+      "postBytes": 17072,
+      "postWidth": 112,
+      "postHeight": 112,
+      "postSha256": "f6a6ae228b5b65a58be1662ac0b993a58cbb9234a9a24f92996cb04a165a6a7a"
     },
     {
       "id": "club:breaffy",
@@ -1783,6 +1812,33 @@
       "postSha256": "0ab52c18160532d8e52dd1cc45ebb029ad517a4e83b1bfd3275f4e0df4f2c757"
     },
     {
+      "id": "club:northern-harps",
+      "kind": "club",
+      "name": "Northern Harps",
+      "aliases": [
+        "Northern Harps",
+        "Northern Harps LGFA"
+      ],
+      "sourceUrl": "https://roscommonlgfa.ie/wp-content/uploads/2026/03/Northern-Harps-150.png",
+      "sourceLabel": "Roscommon LGFA club directory",
+      "sourceFormat": "png",
+      "sourceWidth": 150,
+      "sourceHeight": 150,
+      "sourceBytes": 8932,
+      "licence": "Club crest, used to identify the club (see source page)",
+      "retrievedAt": "2026-10-09T22:53:29.798Z",
+      "file": "/crests/clubs/northern-harps.png",
+      "bytes": 25634,
+      "width": 139,
+      "height": 154,
+      "sha256": "e5c2a542868ad70ca8e5e01bcb0063d31ef04e9d611284957e7e4e2d5b63a017",
+      "postFile": "/crests/clubs/northern-harps-post.png",
+      "postBytes": 16697,
+      "postWidth": 112,
+      "postHeight": 112,
+      "postSha256": "fa2752e0a1f089c411b1869b567f0522ae143e2cd81b3e954ce317ff98ad7953"
+    },
+    {
       "id": "club:oran",
       "kind": "club",
       "name": "Oran Football",
@@ -1841,6 +1897,33 @@
       "postSha256": "2ebbf18b097e634cac517b176604f0c3bfb1faeaeb7c7b932958a427bfe4c8d9"
     },
     {
+      "id": "club:oran-lgfa",
+      "kind": "club",
+      "name": "Oran LGFA",
+      "aliases": [
+        "Oran LGFA",
+        "Oran"
+      ],
+      "sourceUrl": "https://roscommonlgfa.ie/wp-content/uploads/2026/03/Oran-150.png",
+      "sourceLabel": "Roscommon LGFA club directory",
+      "sourceFormat": "png",
+      "sourceWidth": 150,
+      "sourceHeight": 150,
+      "sourceBytes": 11487,
+      "licence": "Club crest, used to identify the club (see source page)",
+      "retrievedAt": "2026-10-09T22:53:29.798Z",
+      "file": "/crests/clubs/oran-lgfa.png",
+      "bytes": 32907,
+      "width": 137,
+      "height": 160,
+      "sha256": "7fc81282c453f31e14f5547dce168aeabb394bc900d399b9cbfa17e72f19c5f3",
+      "postFile": "/crests/clubs/oran-lgfa-post.png",
+      "postBytes": 21369,
+      "postWidth": 112,
+      "postHeight": 112,
+      "postSha256": "25ced1a28f61f56825a21c456256352b56d1be73226c60d24cf432cf2334a375"
+    },
+    {
       "id": "club:padraig-pearses",
       "kind": "club",
       "name": "Padraig Pearses",
@@ -1852,7 +1935,8 @@
         "Na Piarsaigh Ros Comáin",
         "Na Piarsaigh Ros Comain",
         "CLG Pádraig Mac Phiarsaigh",
-        "CLG Padraig Mac Phiarsaigh"
+        "CLG Padraig Mac Phiarsaigh",
+        "Padraig Pearese"
       ],
       "sourceUrl": "https://www.gaaroscommon.ie/wp-content/uploads/2021/09/padraig-pearses-2021-gaa-club.png",
       "sourceLabel": "Roscommon GAA club directory",
@@ -2024,7 +2108,8 @@
         "Barrys",
         "Naomh Bearraí",
         "Naomh Bearrai",
-        "Naomh Bearra"
+        "Naomh Bearra",
+        "St.Barrys"
       ],
       "sourceUrl": "https://www.gaaroscommon.ie/wp-content/uploads/2021/09/st-barrys-gaa-club.png",
       "sourceLabel": "Roscommon GAA club directory",
@@ -2055,7 +2140,8 @@
         "St Brigids",
         "Brigids",
         "Naomh Bríd",
-        "Naomh Brid"
+        "Naomh Brid",
+        "St.Brigids"
       ],
       "sourceUrl": "https://www.gaaroscommon.ie/wp-content/uploads/2021/09/st-brigids-gaa-club.png",
       "sourceLabel": "Roscommon GAA club directory",
@@ -2086,7 +2172,9 @@
         "St Ciaráns",
         "St. Ciaran's",
         "St Ciaráns Hurling",
-        "Naomh Ciarán"
+        "Naomh Ciarán",
+        "St Ciarans Mayo",
+        "St Ciaráns Mayo"
       ],
       "sourceUrl": "https://mayogaa.com/wp-content/uploads/2023/09/St_Ciarans.jpeg",
       "sourceLabel": "Mayo GAA club directory",
@@ -2108,6 +2196,37 @@
       "postSha256": "bf96fedb403ce481c7d38be94b41469db5b45434000553ffbaafa335a723e8ab"
     },
     {
+      "id": "club:st-ciarans-roscommon",
+      "kind": "club",
+      "name": "St Ciaran's",
+      "aliases": [
+        "St Ciaran's",
+        "St.Ciarans",
+        "St Ciarans",
+        "St Ciaráns",
+        "St Ciarans Roscommon",
+        "St Ciaran's Ladies GFC"
+      ],
+      "sourceUrl": "https://roscommonlgfa.ie/wp-content/uploads/2026/03/St.Ciarans-150.png",
+      "sourceLabel": "Roscommon LGFA club directory",
+      "sourceFormat": "png",
+      "sourceWidth": 150,
+      "sourceHeight": 150,
+      "sourceBytes": 7535,
+      "licence": "Club crest, used to identify the club (see source page)",
+      "retrievedAt": "2026-10-09T22:53:29.798Z",
+      "file": "/crests/clubs/st-ciarans-roscommon.png",
+      "bytes": 21623,
+      "width": 145,
+      "height": 162,
+      "sha256": "690b580b9c5488dabbb7625de43116af3cb62f5d339e12ba6ad5d4bb4b111531",
+      "postFile": "/crests/clubs/st-ciarans-roscommon-post.png",
+      "postBytes": 15603,
+      "postWidth": 112,
+      "postHeight": 112,
+      "postSha256": "cbd868de0b8cf869dd69bfe8c2fba08811a05e22231b88da18b03f52998b5f6b"
+    },
+    {
       "id": "club:st-croans",
       "kind": "club",
       "name": "St. Croans",
@@ -2119,7 +2238,8 @@
         "Naomh Crón",
         "Naomh Cron",
         "Naomh Crónán",
-        "Naomh Cronan"
+        "Naomh Cronan",
+        "St.Croans"
       ],
       "sourceUrl": "https://www.gaaroscommon.ie/wp-content/uploads/2021/09/st-croans-gaa-club.png",
       "sourceLabel": "Roscommon GAA club directory",
@@ -2141,6 +2261,33 @@
       "postSha256": "c3a99741b66b6a2b5da93fd449e6c557f9202e1f576e50ae177f7ee389ce130b"
     },
     {
+      "id": "club:st-croans-lgfa",
+      "kind": "club",
+      "name": "St.Croans LGFA",
+      "aliases": [
+        "St.Croans LGFA",
+        "St.Croans"
+      ],
+      "sourceUrl": "https://roscommonlgfa.ie/wp-content/uploads/2026/03/St.croans-150.png",
+      "sourceLabel": "Roscommon LGFA club directory",
+      "sourceFormat": "png",
+      "sourceWidth": 150,
+      "sourceHeight": 150,
+      "sourceBytes": 15032,
+      "licence": "Club crest, used to identify the club (see source page)",
+      "retrievedAt": "2026-10-09T22:53:29.798Z",
+      "file": "/crests/clubs/st-croans-lgfa.png",
+      "bytes": 45075,
+      "width": 154,
+      "height": 154,
+      "sha256": "5f38138c07afd7caf6ffce626cac64c8f88913251e78aa892c1702f8499d1f03",
+      "postFile": "/crests/clubs/st-croans-lgfa-post.png",
+      "postBytes": 23973,
+      "postWidth": 112,
+      "postHeight": 112,
+      "postSha256": "99f7f7254c5f50bae70faccb30471bb1e21f49bda8fd09b0fb3a7f9f1fcc7b6e"
+    },
+    {
       "id": "club:st-dominics",
       "kind": "club",
       "name": "St. Dominics",
@@ -2150,7 +2297,8 @@
         "St Dominics",
         "St. Dominic's G.A.A. Club",
         "St Dominic's GAA Club",
-        "Naomh Dominic"
+        "Naomh Dominic",
+        "St.Dominic's"
       ],
       "sourceUrl": "https://www.gaaroscommon.ie/wp-content/uploads/2021/09/st-dominics-gaa-club.png",
       "sourceLabel": "Roscommon GAA club directory",
@@ -2181,7 +2329,8 @@
         "St Faithleachs",
         "Faithleachs",
         "Naomh Faíthleach",
-        "Naomh Faithleach"
+        "Naomh Faithleach",
+        "St.Faithleachs"
       ],
       "sourceUrl": "https://www.gaaroscommon.ie/wp-content/uploads/2021/09/st-faithleach-gaa-club.png",
       "sourceLabel": "Roscommon GAA club directory",
@@ -2258,6 +2407,37 @@
       "postSha256": "a2630397acaa070215b68baf04079b6dc83b3761dec845cb6cd2f84536ec01e8"
     },
     {
+      "id": "club:st-marys",
+      "kind": "club",
+      "name": "St Mary's",
+      "aliases": [
+        "St Mary's",
+        "St.Marys",
+        "St Marys",
+        "St Marys Tulsk",
+        "St Mary's Tulsk",
+        "St Marys LGFA"
+      ],
+      "sourceUrl": "https://roscommonlgfa.ie/wp-content/uploads/2026/03/St.Marys-150.png",
+      "sourceLabel": "Roscommon LGFA club directory",
+      "sourceFormat": "png",
+      "sourceWidth": 150,
+      "sourceHeight": 150,
+      "sourceBytes": 13129,
+      "licence": "Club crest, used to identify the club (see source page)",
+      "retrievedAt": "2026-10-09T22:53:29.798Z",
+      "file": "/crests/clubs/st-marys.png",
+      "bytes": 38563,
+      "width": 130,
+      "height": 154,
+      "sha256": "bf8422d11a40a132af4b2b98ef5931b2aa10eee582b8989a9432dd1b5c61f014",
+      "postFile": "/crests/clubs/st-marys-post.png",
+      "postBytes": 24893,
+      "postWidth": 112,
+      "postHeight": 112,
+      "postSha256": "1f38994f1a1a67d3f96327b951a2415ec9be228b176502e9c9b878c4953ed1b2"
+    },
+    {
       "id": "club:st-michaels",
       "kind": "club",
       "name": "St. Michaels",
@@ -2267,7 +2447,8 @@
         "St Michaels",
         "Naomh Mícheál",
         "Naomh Micheál",
-        "Naomh Micheal"
+        "Naomh Micheal",
+        "St.Michaels"
       ],
       "sourceUrl": "https://www.gaaroscommon.ie/wp-content/uploads/2021/09/st-michaels-gaa-club.png",
       "sourceLabel": "Roscommon GAA club directory",
@@ -2298,7 +2479,8 @@
         "St Ronans",
         "Ronans",
         "Naomh Rónán",
-        "Naomh Ronan"
+        "Naomh Ronan",
+        "St.Ronans"
       ],
       "sourceUrl": "https://www.gaaroscommon.ie/wp-content/uploads/2021/09/st-ronans-gaa-club-2.png",
       "sourceLabel": "Roscommon GAA club directory",
@@ -2346,6 +2528,33 @@
       "postWidth": 112,
       "postHeight": 112,
       "postSha256": "5542fdc986fd7252493f868d6cb54d5ddbafc8241f1830b873e65c496f538abe"
+    },
+    {
+      "id": "club:strokestown-lgfa",
+      "kind": "club",
+      "name": "Strokestown LGFA",
+      "aliases": [
+        "Strokestown LGFA",
+        "Strokestown"
+      ],
+      "sourceUrl": "https://roscommonlgfa.ie/wp-content/uploads/2026/03/Strokestown-150.png",
+      "sourceLabel": "Roscommon LGFA club directory",
+      "sourceFormat": "png",
+      "sourceWidth": 150,
+      "sourceHeight": 150,
+      "sourceBytes": 10796,
+      "licence": "Club crest, used to identify the club (see source page)",
+      "retrievedAt": "2026-10-09T22:53:29.798Z",
+      "file": "/crests/clubs/strokestown-lgfa.png",
+      "bytes": 29887,
+      "width": 146,
+      "height": 156,
+      "sha256": "698bae46bfbdfd6d0b59a53a7895523a9ae2aef64521f90fd219c8ec91bb1016",
+      "postFile": "/crests/clubs/strokestown-lgfa-post.png",
+      "postBytes": 18735,
+      "postWidth": 112,
+      "postHeight": 112,
+      "postSha256": "f15575c015f7c7a50bfe8e1808be140c33eab89da34c78f93a6357123a7159d1"
     },
     {
       "id": "club:swinford",
