@@ -11,7 +11,7 @@ Published base URL: https://raw.githubusercontent.com/rwflan/gaa-crest-assets/ma
 
 ## What is here
 
-- `crests/clubs/<slug>.png` - 92 club crests, each alongside the
+- `crests/clubs/<slug>.png` - 99 club crests, each alongside the
   112px square `<slug>-post.png` derivative that ProBoards posts embed.
 - `crests/counties/<slug>.png` - 36 county boards, including
   London, New York, Lancashire and Warwickshire.
@@ -59,6 +59,9 @@ format, the licence note, and SHA-256 checksums for both stored files.
   [`pnpm mayo:clubs`](../../../docs/operations/cross-county-club-index.md),
   which also records the Irish and table aliases so names such as `Tuairín`
   resolve. Run that command before this one when the club list changes.
+- **LGFA clubs** — all 25 clubs in the official directory
+  (<https://roscommonlgfa.ie/club-information/>). Shared badges reuse the GAA
+  assets; distinct ladies' badges and LGFA-only clubs have separate entries.
 - **Counties** — the Wikipedia crest file for each county board, preferring
   vector artwork and the most recent file. Roscommon itself comes from the
   county board's own crest; Lancashire and Warwickshire use the GAA Fixture
@@ -76,6 +79,7 @@ that an operator page view or a forum post never makes a third-party request.
 ```powershell
 pnpm crests:scrape           # refresh every asset, rewrite the manifest, publish
 pnpm crests:scrape --only=counties
+pnpm crests:scrape --only=lgfa
 pnpm crests:scrape --force   # re-download even when a cached copy exists
 pnpm crests:publish          # publish the current library without re-scraping
 pnpm crests:publish:check    # report drift from the published mirror
