@@ -11,7 +11,7 @@ Published base URL: https://raw.githubusercontent.com/rwflan/gaa-crest-assets/ma
 
 ## What is here
 
-- `crests/clubs/<slug>.png` - 351 club crests, each alongside the
+- `crests/clubs/<slug>.png` - 396 club crests, each alongside the
   112px square `<slug>-post.png` derivative that ProBoards posts embed.
 - `crests/counties/<slug>.png` - 36 county boards, including
   London, New York, Lancashire and Warwickshire.
@@ -36,9 +36,10 @@ identity; this directory is the per-team image library.
 
 ## Layout
 
-- `clubs/<slug>.png` — one crest per affiliated Roscommon club and per Mayo
-  club indexed for cross-county fixtures, plus a 112px square `-post.png`
-  derivative sized for the forum medallion.
+- `clubs/<slug>.png` — one crest per affiliated Roscommon club, per Mayo club
+  indexed for cross-county fixtures, per Connacht club registered for the
+  cross-county index, and per Connacht camogie club, plus a 112px square
+  `-post.png` derivative sized for the forum medallion.
 - `counties/<slug>.png` — the 32 counties plus London, New York, Lancashire,
   and Warwickshire.
 - `fallback/gaa-logo.png` — the GAA mark used for amalgamations, second teams
@@ -62,6 +63,13 @@ format, the licence note, and SHA-256 checksums for both stored files.
 - **LGFA clubs** — all 25 clubs in the official directory
   (<https://roscommonlgfa.ie/club-information/>). Shared badges reuse the GAA
   assets; distinct ladies' badges and LGFA-only clubs have separate entries.
+- **Camogie clubs** — every Connacht camogie club in the register at
+  `packages/domain/src/connacht-camogie-clubs.ts`, sourced from the Galway,
+  Roscommon and Mayo county camogie directories and the Camogie Association's
+  club lists. Badges are taken from each club's camogie page where it publishes
+  one; shared-crest clubs reuse the GAA badge they resolve to, and `Davitts`
+  has no badge so it uses the GAA mark. See
+  [`docs/operations/cross-county-club-index.md`](../../../docs/operations/cross-county-club-index.md#connacht-camogie-register).
 - **Counties** — the Wikipedia crest file for each county board, preferring
   vector artwork and the most recent file. Roscommon itself comes from the
   county board's own crest; Lancashire and Warwickshire use the GAA Fixture
@@ -80,6 +88,7 @@ that an operator page view or a forum post never makes a third-party request.
 pnpm crests:scrape           # refresh every asset, rewrite the manifest, publish
 pnpm crests:scrape --only=counties
 pnpm crests:scrape --only=lgfa
+pnpm crests:scrape --only=camogie
 pnpm crests:scrape --force   # re-download even when a cached copy exists
 pnpm crests:publish          # publish the current library without re-scraping
 pnpm crests:publish:check    # report drift from the published mirror
