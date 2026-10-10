@@ -3,11 +3,11 @@
     "repository": "https://github.com/rwflan/roscommon-gaa-results-service",
     "repositoryVisibility": "private",
     "path": "apps/web/public/crests",
-    "retrievedAt": "2026-10-09T23:37:59.017Z",
-    "digest": "10ba20a18cbb5225f167ffb678f6f4775504afb375c433fb16e6bd341d17cd27"
+    "retrievedAt": "2026-10-10T00:25:22.374Z",
+    "digest": "e3e13d51816c0905ead35d244598db95e9efb05d32aae19c03218babb2631fc1"
   },
   "counts": {
-    "clubs": 350,
+    "clubs": 351,
     "counties": 36,
     "fallback": 1
   },
@@ -8192,6 +8192,35 @@
       "postWidth": 112,
       "postHeight": 112,
       "postSha256": "92a10d196accc1b8a77879434efbc3f66fc1c000029d9b1f2971fff841d9fc09"
+    },
+    {
+      "id": "club:sligo-gaa-na-fianna",
+      "kind": "club",
+      "name": "Na Fianna sligo GAA",
+      "aliases": [
+        "Na Fianna sligo GAA",
+        "Na Fianna Hurling sligo GAA",
+        "Na Fianna sligo",
+        "sligo Na Fianna GAA"
+      ],
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122117631513124398&set=a.122098127133124398",
+      "sourceLabel": "sligo GAA club directory",
+      "sourceFormat": "jpeg",
+      "sourceWidth": 1411,
+      "sourceHeight": 1412,
+      "sourceBytes": 138167,
+      "licence": "Club crest, used to identify the club (see source page)",
+      "retrievedAt": "2026-10-10T00:25:22.374Z",
+      "file": "/crests/clubs/sligo-gaa-na-fianna.png",
+      "bytes": 32003,
+      "width": 186,
+      "height": 192,
+      "sha256": "51573d5bb7d292b82f5e2c401e5e351147d2debd4155f5c2e890322c56c88d52",
+      "postFile": "/crests/clubs/sligo-gaa-na-fianna-post.png",
+      "postBytes": 12950,
+      "postWidth": 112,
+      "postHeight": 112,
+      "postSha256": "c4186077b551ed176cadccfe2bd6bba270c2b45a8cf767b55af311db7d4f9c45"
     },
     {
       "id": "club:sligo-gaa-naomh-eoin",

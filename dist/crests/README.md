@@ -11,7 +11,7 @@ Published base URL: https://raw.githubusercontent.com/rwflan/gaa-crest-assets/ma
 
 ## What is here
 
-- `crests/clubs/<slug>.png` - 350 club crests, each alongside the
+- `crests/clubs/<slug>.png` - 351 club crests, each alongside the
   112px square `<slug>-post.png` derivative that ProBoards posts embed.
 - `crests/counties/<slug>.png` - 36 county boards, including
   London, New York, Lancashire and Warwickshire.
